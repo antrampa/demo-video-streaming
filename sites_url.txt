@@ -1,0 +1,3 @@
+Τα sites που θα χρησιμοποιηθουν είναι τα εξής : Youtube, Daylimotion, Metacafe, Vimeo και Veoh.
+
+Από το βίντεο θα ήθελα να αποθήκευονται αλλα και να εμφανιζονταί τα εξης: Ονομα βιντεο, ημερομηνια ωρα, Streaming & Buffering time, Size Video, bit rate, frames per second, height and width of video, codec of video.... δηλαδη αυτα που εμπεριεχει η κλαση FLVMetaData.class.php. 

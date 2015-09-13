@@ -1,0 +1,64 @@
+[26-Mar-2010 17:39:45] PHP Warning:  curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: CURLOPT_FOLLOWLOCATION cannot be activated when in safe_mode or an open_basedir is set in /home/myamate/public_html/~demo-video-streaming/TXML.php on line 67
+[26-Mar-2010 17:41:26] PHP Warning:  curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: CURLOPT_FOLLOWLOCATION cannot be activated when in safe_mode or an open_basedir is set in /home/myamate/public_html/~demo-video-streaming/TXML.php on line 67
+[26-Mar-2010 17:42:46] PHP Warning:  curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: CURLOPT_FOLLOWLOCATION cannot be activated when in safe_mode or an open_basedir is set in /home/myamate/public_html/~demo-video-streaming/TXML.php on line 67
+[26-Mar-2010 18:02:45] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'nobody'@'localhost' (using password: NO) in /home/myamate/public_html/~demo-video-streaming/classes/tbl_param_class_connect.php on line 101
+[26-Mar-2010 18:02:45] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/myamate/public_html/~demo-video-streaming/classes/tbl_param_class_connect.php on line 101
+[26-Mar-2010 18:03:44] PHP Warning:  curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: CURLOPT_FOLLOWLOCATION cannot be activated when in safe_mode or an open_basedir is set in /home/myamate/public_html/~demo-video-streaming/TXML.php on line 67
+[26-Mar-2010 18:03:44] PHP Fatal error:  Call to a member function attributes() on a non-object in /home/myamate/public_html/~demo-video-streaming/veoh_v2.php on line 21
+[26-Mar-2010 18:03:55] PHP Warning:  curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: CURLOPT_FOLLOWLOCATION cannot be activated when in safe_mode or an open_basedir is set in /home/myamate/public_html/~demo-video-streaming/TXML.php on line 67
+[26-Mar-2010 18:03:55] PHP Fatal error:  Call to a member function attributes() on a non-object in /home/myamate/public_html/~demo-video-streaming/veoh_v2.php on line 21
+[26-Mar-2010 18:04:29] PHP Warning:  curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: CURLOPT_FOLLOWLOCATION cannot be activated when in safe_mode or an open_basedir is set in /home/myamate/public_html/~demo-video-streaming/TXML.php on line 67
+[28-Mar-2010 00:27:59] PHP Warning:  file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: Filename cannot be empty in /home/myamate/public_html/~demo-video-streaming/metacafe.php on line 60
+[28-Mar-2010 00:43:43] PHP Fatal error:  Call to a member function attributes() on a non-object in /home/myamate/public_html/~demo-video-streaming/veoh_v2.php on line 21
+[28-Mar-2010 17:00:38] PHP Warning:  file_get_contents(http://www.youtube.com/get_video?video_id=&amp;t=) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/myamate/public_html/~demo-video-streaming/youtube_functions.php on line 30
+[29-Mar-2010 01:03:11] PHP Warning:  file_get_contents(http://www.youtube.com/get_video?video_id=&amp;t=) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/myamate/public_html/~demo-video-streaming/youtube_functions.php on line 30
+[29-Mar-2010 01:03:23] PHP Warning:  file_get_contents(http://www.youtube.com/get_video?video_id=&amp;t=) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/myamate/public_html/~demo-video-streaming/youtube_functions.php on line 30
+[29-Mar-2010 08:26:31] PHP Fatal error:  Call to a member function attributes() on a non-object in /home/myamate/public_html/~demo-video-streaming/veoh_v2.php on line 21
+[29-Mar-2010 08:29:39] PHP Fatal error:  Call to a member function attributes() on a non-object in /home/myamate/public_html/~demo-video-streaming/veoh_v2.php on line 21
+[29-Mar-2010 10:14:59] PHP Warning:  file_get_contents(http://www.youtube.com/get_video?video_id=&amp;t=) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/myamate/public_html/~demo-video-streaming/youtube_functions.php on line 30
+[07-Apr-2010 07:03:43] PHP Warning:  file_get_contents(http://www.youtube.com/get_video?video_id=&amp;t=) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/myamate/public_html/~demo-video-streaming/youtube_functions.php on line 30
+[07-Apr-2010 07:04:04] PHP Warning:  file_get_contents(http://www.youtube.com/get_video?video_id=&amp;t=) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/myamate/public_html/~demo-video-streaming/youtube_functions.php on line 30
+[07-Apr-2010 07:04:16] PHP Warning:  file_get_contents(http://www.youtube.com/get_video?video_id=&amp;t=) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/myamate/public_html/~demo-video-streaming/youtube_functions.php on line 30
+[07-Apr-2010 07:04:44] PHP Warning:  file_get_contents(http://www.youtube.com/get_video?video_id=&amp;t=) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/myamate/public_html/~demo-video-streaming/youtube_functions.php on line 30
+[07-Apr-2010 07:04:51] PHP Warning:  file_get_contents(http://www.youtube.com/get_video?video_id=&amp;t=) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/myamate/public_html/~demo-video-streaming/youtube_functions.php on line 30
+[08-Apr-2010 15:09:32] PHP Warning:  file_get_contents(http://www.youtube.com/get_video?video_id=&amp;t=) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/myamate/public_html/~demo-video-streaming/youtube_functions.php on line 30
+[08-Apr-2010 15:09:56] PHP Warning:  file_get_contents(http://www.youtube.com/get_video?video_id=&amp;t=) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/myamate/public_html/~demo-video-streaming/youtube_functions.php on line 30
+[08-Apr-2010 15:25:17] PHP Warning:  file_get_contents(http://www.youtube.com/get_video?video_id=&amp;t=) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/myamate/public_html/~demo-video-streaming/youtube_functions.php on line 30
+[09-Apr-2010 01:40:46] PHP Warning:  file_get_contents(http://www.youtube.com/get_video?video_id=&amp;t=) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/myamate/public_html/~demo-video-streaming/youtube_functions.php on line 30
+[09-Apr-2010 01:41:14] PHP Warning:  file_get_contents(http://www.youtube.com/get_video?video_id=&amp;t=) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/myamate/public_html/~demo-video-streaming/youtube_functions.php on line 30
+[09-Apr-2010 09:53:23] PHP Warning:  file_get_contents(http://www.youtube.com/get_video?video_id=&amp;t=) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/myamate/public_html/~demo-video-streaming/youtube_functions.php on line 30
+[10-Apr-2010 06:18:46] PHP Warning:  file_get_contents(http://www.youtube.com/get_video?video_id=&amp;t=) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/myamate/public_html/~demo-video-streaming/youtube_functions.php on line 30
+[13-Apr-2010 06:37:17] PHP Warning:  file_get_contents(http://www.youtube.com/get_video?video_id=&amp;t=) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/myamate/public_html/~demo-video-streaming/youtube_functions.php on line 30
+[13-Apr-2010 16:00:03] PHP Warning:  file_get_contents(http://www.youtube.com/get_video?video_id=&amp;t=) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/myamate/public_html/~demo-video-streaming/youtube_functions.php on line 30
+[25-Apr-2010 05:42:18] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'nobody'@'localhost' (using password: NO) in /home/myamate/public_html/~demo-video-streaming/classes/tbl_param_class_connect.php on line 101
+[25-Apr-2010 05:42:18] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/myamate/public_html/~demo-video-streaming/classes/tbl_param_class_connect.php on line 101
+[19-May-2010 15:24:57] PHP Warning:  file_get_contents(http://www.youtube.com/get_video?video_id=&amp;t=) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.0 402 Payment Required
+ in /home/myamate/public_html/~demo-video-streaming/youtube_functions.php on line 30
+[19-May-2010 15:25:21] PHP Warning:  file_get_contents(http://www.youtube.com/get_video?video_id=&amp;t=) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.0 402 Payment Required
+ in /home/myamate/public_html/~demo-video-streaming/youtube_functions.php on line 30
+[04-Jul-2010 09:22:44] PHP Warning:  file_get_contents(http://www.youtube.com/get_video?video_id=&amp;t=) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.0 402 Payment Required
+ in /home/myamate/public_html/~demo-video-streaming/youtube_functions.php on line 30
+[04-Jul-2010 09:23:01] PHP Warning:  file_get_contents(http://www.youtube.com/get_video?video_id=&amp;t=) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.0 402 Payment Required
+ in /home/myamate/public_html/~demo-video-streaming/youtube_functions.php on line 30
+[04-Jul-2010 09:23:24] PHP Warning:  file_get_contents(http://www.youtube.com/get_video?video_id=&amp;t=) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.0 402 Payment Required
+ in /home/myamate/public_html/~demo-video-streaming/youtube_functions.php on line 30
+[04-Jul-2010 09:23:50] PHP Warning:  file_get_contents(http://www.youtube.com/get_video?video_id=&amp;t=) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.0 402 Payment Required
+ in /home/myamate/public_html/~demo-video-streaming/youtube_functions.php on line 30

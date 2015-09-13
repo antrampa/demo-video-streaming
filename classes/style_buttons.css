@@ -1,0 +1,263 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bttnDelete
+{
+
+	background-color:#FF0000; 
+	color:#FFFFFF; 
+	font-style:italic;
+	font-size:9px;
+	border-style:outset; 
+	border-spacing:12px; 
+	cursor:hand; 
+	width:70px;
+}
+
+.bttnDelete_small
+{
+
+	background-color:#FF0000; 
+	color:#FFFFFF; 
+	font-style:italic;
+	font-size:7px;
+	border-style:outset; 
+	border-spacing:12px; 
+	cursor:hand; 
+	width:35px;
+	height:17px;
+}
+
+.bttnDelete_photo
+{
+	background-color:#FF0000; 
+	color:#FFFFFF; 
+	font-style:italic;
+	font-size:9px;
+	border-style:outset; 
+	border-spacing:12px; 
+	cursor:hand; 
+	width:40px;
+}
+
+.bttn_search
+{
+	width:70px;
+	color:#00000;/*#FFCC00; #99CCCC*/
+	font-size:9px;
+	font-style:italic;
+	background-color:#f7b52b; /*BD8AF7*/
+	border-color:#EDEDED;/*#FFCC00;*/
+	cursor:hand;
+	border-style:solid;
+
+}
+
+.bttn_clear
+{
+	width:70px;
+	color:#fff;/*#FFCC00; #99CCCC*/
+	font-size:9px;
+	font-style:italic;
+	background-color:#000;
+	border-color:#EDEDED;/*#FFCC00;*/
+	cursor:hand;
+	border-style:solid;
+}
+
+.bttn_submit
+{
+	width:70px;
+	color:#00000;/*#FFCC00; #99CCCC*/
+	font-size:9px;
+	font-style:italic;
+	background-color:#BD8AF7;
+	border-color:#EDEDED;/*#FFCC00;*/
+	cursor:hand;
+	border-style:solid;
+}
+
+
+.bttn_browse
+{
+	width:120px;
+	color:#00000;/*#FFCC00; #99CCCC*/
+	font-size:9px;
+	font-style:italic;
+	background-color:#009;
+	border-color:#EDEDED;/*#FFCC00;*/
+	cursor:hand;
+	border-style:solid;
+}
+.bttn_browse_freeWidth
+{
+	color:#00000;/*#FFCC00; #99CCCC*/
+	font-size:9px;
+	font-style:italic;
+	background-color:#009;
+	border-color:#EDEDED;/*#FFCC00;*/
+	cursor:hand;
+	border-style:solid;
+}
+
+.bttn_print
+{
+	width:70px;
+	color:#ffffff;/*#FFCC00; #99CCCC*/
+	font-size:9px;
+	font-style:italic;
+	background-color:#009;
+	border-color:#EDEDED;/*#FFCC00;*/
+	cursor:hand;
+	border-style:solid;
+}
+
+.bttn_goBack
+{
+	width:70px;
+	color:#ffffff;/*#FFCC00; #99CCCC*/
+	font-size:9px;
+	font-style:italic;
+	background-color:#009;
+	border-color:#EDEDED;/*#FFCC00;*/
+	cursor:hand;
+	border-style:solid;
+}
+
+.bttn_goBack_small
+{
+	width:35px;
+	height:17px;
+	color:#ffffff;/*#FFCC00; #99CCCC*/
+	font-size:7px;
+	font-style:italic;
+	background-color:#009;
+	border-color:#EDEDED;/*#FFCC00;*/
+	cursor:hand;
+	border-style:solid;
+}
+
+.bttn_confirm
+{
+	width:70px;
+	color:#00000;/*#FFCC00; #99CCCC*/
+	font-size:9px;
+	font-style:italic;
+	background-color:#BD8AF7;
+	border-color:#EDEDED;/*#FFCC00;*/
+	cursor:hand;
+	border-style:solid;
+}
+
+.bttn_add
+{
+	width:70px;
+	color:#00000;/*#FFCC00; #99CCCC*/
+	font-size:9px;
+	font-style:italic;
+	background-color:#339966;
+	border-color:#EDEDED;/*#FFCC00;*/
+	cursor:hand;
+	border-style:solid;
+}
+
+.bttn_add_small
+{
+	width:35px;
+	height:17px;
+	color:#00000;/*#FFCC00; #99CCCC*/
+	font-size:7px;
+	font-style:italic;
+	background-color:#339966;
+	border-color:#EDEDED;/*#FFCC00;*/
+	cursor:hand;
+	border-style:solid;
+}
+
+.bttn_edit
+{
+	width:70px;
+	color:#00000;/*#FFCC00; #99CCCC*/
+	font-size:9px;
+	font-style:italic;
+	background-color:#FFFFFF;
+	border-color:#339966;/*#FFCC00;*/
+	cursor:hand;
+	border-style:solid;
+}
+
+
+.text_bttn_add 
+{
+	color:#339966;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.text_bttn_view
+{
+	color:#009;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.text_bttn_add:hover, text_bttn_add:visited
+{
+	color:#339966;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+.text_bttn_search 
+{
+	color:#f7b52b;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	text-decoration:none;	
+}
+
+.text_bttn_search:hover, text_bttn_search:visited
+{
+	color:#f7b52b;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+
+.searchLink_topMenu
+{
+	color:#f7b52b;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.sorter_droplist
+{
+	width:120px;
+	color:#FFFFFF;/*#FFCC00; #99CCCC*/
+	font-size:9px;
+	font-style:italic;
+	background-color:#009;
+	border-color:#009;/*#FFCC00;*/
+	cursor:hand;
+	border-style:solid;
+}
+
+
+
+
+
+
+
+
+
+
+

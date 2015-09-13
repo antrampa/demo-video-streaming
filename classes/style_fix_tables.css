@@ -1,0 +1,101 @@
+
+div#tbl-container {
+width: 100%;
+height: 650px;/*252*/
+overflow: auto;
+scrollbar-base-color:#ffeaff;
+}
+
+table#tbl {
+table-layout: fixed;
+/*border-collapse: collapse; */
+/*background-color: WhiteSmoke;*/
+}
+
+div#tbl-container table th {
+/*width: 100px;*/
+}
+
+thead#tbl th, thead#tbl th.locked	{
+font-size: 9px;
+font-weight: bold;
+
+background-color: navy;
+color: white;
+
+position:relative;
+cursor: default; 
+}
+	
+thead#tbl th {
+top: expression(document.getElementById("tbl-container").scrollTop-2); /*IE5+ only*/
+z-index: 20;
+}
+
+
+
+thead th, thead th.locked {
+top: expression(parentNode.parentNode.parentNode.parentNode.scrollTop-2); /*IE5+ only*/
+position: relative;
+z-index: 20;
+}
+
+thead th.locked {z-index: 30;}
+
+td.locked,  th.locked{
+background-color:#CFDFEF;
+/*background-color: #ffeaff;*/
+/*font-weight: bold;*/
+
+left: expression(parentNode.parentNode.parentNode.parentNode.scrollLeft); /*IE5+ only*/
+position: relative;
+z-index: 10;
+}
+
+/*these styles have nothing to do with the locked column*/
+body {
+/*background-color: white;*/
+/*color: black;*/
+/*font-family: Arial, sans-serif;*/
+}
+
+td {
+/*padding: 2px 5px 2px 2px;*/
+font-size: 9px;
+/*
+border-left: 1px solid silver;
+border-bottom: 1px solid silver;
+*/
+/*text-align: left;*/
+}
+
+button {
+
+font-weight: bold;
+color: navy;
+margin-bottom: 5px;
+}
+
+div.infobox {
+position:absolute; 
+top:110px; 
+left:0px;/*470px; */
+right:5px; 
+
+/*border: double 4px #6633ff;*/
+
+padding:8px; 
+font-size:12px; 
+font-family:Arial, sans-serif; 
+text-align:justify; 
+text-justify:newspaper; 
+background-color:whitesmoke;
+}
+
+
+
+.sig	{
+color:#6633ff;
+font-style: italic;
+letter-spacing: 2px;
+}

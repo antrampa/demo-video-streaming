@@ -1,0 +1,72 @@
+.DYTWContainer {
+	position: relative;
+}
+.DYTWContainer table {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+.DYTWWrapperOutersmall {
+	width: 62px;
+	border: 1px solid #999;
+	float: left;
+	margin-bottom: 1px;
+	margin-right: 1px;
+}
+.DYTWWrapperInnersmall {
+	overflow: hidden;
+	width: 60px;
+	height: 36px;
+	border: 1px solid #fff;
+	padding-top: -3px;
+}
+.DYTWWrapperInnersmall img {
+	margin-top: -6px;
+	width: 60px;
+	height: 45px;
+	border: 0px;
+}
+.DYTWWrapperOutermedium {
+	width: 92px;
+	border: 1px solid #999;
+	float: left;
+	margin-bottom: 1px;
+	margin-right: 1px;
+}
+.DYTWWrapperInnermedium {
+	overflow: hidden;
+	width: 90px;
+	height: 54px;
+	border: 1px solid #fff;
+	padding-top: -3px;
+}
+.DYTWWrapperInnermedium img {
+	margin-top: -6px;
+	width: 90px;
+	height: 66px;
+	border: 0px;
+}
+.DYTWWrapperOuterlarge {
+	width: 122px;
+	border: 1px solid #999;
+	float: left;
+	margin-bottom: 1px;
+	margin-right: 1px;
+}
+.DYTWWrapperInnerlarge {
+	overflow: hidden;
+	width: 120px;
+	height: 72px;
+	border: 1px solid #fff;
+	padding-top: -3px;
+}
+.DYTWWrapperInnerlarge img {
+	margin-top: -10px;
+	width: 120px;
+	height: 90px;
+	border: 0px;
+}
+.DYTWcredits {
+	clear: left;
+	font-size: smaller;
+}

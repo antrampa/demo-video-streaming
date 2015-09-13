@@ -1,0 +1,1111 @@
+@charset "utf-8";
+/* CSS Document */
+
+TABLE td
+{
+	vertical-align:top;
+}	
+
+.resultsTable
+{
+	padding-top:4px;
+	
+	width:96%;
+	border:1px;
+	border-color:#000000;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+}
+
+.resultsTable th
+{
+	background-color: #009;
+	color: #fff;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+}
+
+.resultsTable_SortCaptions
+{
+	color: #fff;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+}
+
+.searchFilterTables
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	background-color:#E0E0E0; /*#CBDCED*/
+	width:96%;
+	border:2px solid #F7B52B;
+	
+
+}
+
+
+
+.searchFilterTables td
+{
+	/*width:120px;*/
+	/*max-width:80px; */
+	text-align:left;
+	padding-left:15px;
+	padding-right:2px;
+	font-size:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+.tblBasic_inf_Background /* Einai to tabl tou Basic Information to opoio poorizetai gia geniki klasi */
+{
+	width:100%;
+	padding:1px;	/* Ta padding toy Genikoy pinaka pou periexei tis plirofories */
+	
+}
+
+.tblBasic_inf_Background td 
+{
+	padding:0px;	/* Ta padding toy Genikoy pinaka pou periexei tis plirofories */
+	
+}
+
+
+.searchFilterTables_textTD
+{
+	width:80px; 
+}
+
+.searchFilterTables_Caption
+{
+	padding:0px 0px 0px 1px;
+	background-color:#FFFFFF;
+	height:15px;
+	width:100%;
+	background-image: url("../images/search_table_caption_background_vert.gif");
+	
+}
+
+.addForm_Caption
+{
+	padding:0px 0px 0px 1px;
+	background-color:#FFFFFF;
+	height:25px;
+	width:1100px;
+	background-image: url("../cp_v3/images/add_table_caption_background_vert.gif");
+}
+
+.addForm
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	background-color:#E0E0E0; /*#CBDCED*/
+	width:1124px;
+	border:2px solid #339966;
+}
+
+.addForm_Titles
+{
+	border:1px solid #339966; 
+	font-weight:bold;
+	/*color:#FFFFFF;
+	background-color:#f7b52b;*/
+}
+
+.searchTable_inputs
+{
+	font-size:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	height:18px;
+	width:120px;
+	
+}
+
+.searchTable_inputs_add_shapeCode
+{
+	font-size:9px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	height:18px;
+	width:360px;
+	padding-right:2px;
+}
+
+.searchTable_inputs_freeWith
+{
+	font-size:9px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	height:18px;
+	
+}
+.searchTable_inputs_freeWith_small
+{
+	font-size:9px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	height:18px;
+	
+}
+
+.searchTable_inputs_freeWidth_date
+{
+	font-size:8px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	height:18px;
+	padding-right:15px;
+}
+
+.searchTable_inputs_bffcmbts
+{
+	font-size:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	height:18px;
+	width:320px;
+	padding-right:15px;
+}
+
+.searchTable_inputs_date
+{
+	font-size:9px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	height:18px;
+	width:70px;
+	padding-right:15px;
+}
+
+.searchTableTables
+{
+	border:1px solid #0000;
+}
+
+.searchTable_seachTitles
+{
+	border:1px solid #f7b52b; 
+	font-weight:bold;
+	/*color:#FFFFFF;
+	background-color:#f7b52b;*/
+}
+
+
+
+.searchTable_seachTitlesTable	
+{
+	border:1px solid #f7b52b; 
+	font-weight:bold;
+	vertical-align:top;
+	margin:3px;
+	/*color:#FFFFFF;
+	background-color:#f7b52b;*/
+}
+
+.toolBarEdit_Title
+{
+	border:1px solid #f7b52b; 
+	font-weight:bold;
+	/*color:#FFFFFF;
+	background-color:#f7b52b;*/
+	
+}
+.toolBarEdit_Title td
+{
+	background-color:#ffffff;
+	text-align:center;
+	font-size:14px;
+	color:#009;
+	font-weight:bold;
+	padding-left:5px;
+	padding-bottom:5px;
+	padding-top:5px;
+	padding-right:5px;
+}
+
+.searchTable_seachTitlesTable th
+{
+	border:1px solid #f7b52b; 
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	background-color:#f7b52b;
+	text-align:center;
+}
+
+.searchTable_seachTitlesTable caption
+{
+/*
+	border:1px solid #f7b52b; 
+	font-weight:bold;
+	color:#ffffff;
+	font-size:14px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	
+	background-color:#f7b52b;
+	text-align:center;
+*/
+	border:1px solid #f7b52b; 
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	background-color:#f7b52b;
+	text-align:center;	
+}
+
+.searchTable_seachTitlesTable td
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+	background-color:#ffffff;
+	font-size:10px;
+	padding:0px 0px 0px 5px;
+}
+
+.searchTable_seachTitlesTable_padding
+{
+	padding:1px;
+}
+
+
+
+.tblBasic_inf_Background_spec td
+{
+	padding_left:5px;
+	padding-top:5px;
+}
+
+.tblBasic_inf_Background_spec_ins td
+{
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.searchTable_inputs_comment
+{
+	font-size:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	/*height:18px;*/
+	width:150px;
+	padding-right:15px;
+}
+
+.searchTable_inputs_comment_rootShapeEdit
+{
+	font-size:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	/*height:18px;*/
+	width:440px;
+	padding-right:15px;
+}
+
+.searchTable_inputs_comment_rootStyleEdit
+{
+	font-size:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	/*height:18px;*/
+	width:400px;
+	padding-right:15px;
+}
+
+.searchTable_inputs_comment_action
+{
+	font-size:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	/*height:18px;*/
+	width:350px;
+	padding-right:15px;
+}
+
+.resultsTable_Rows
+{
+	cursor:pointer; 
+}
+
+.resultsTable_Rows:hover
+{
+	background-color:#CCCCCC;
+	cursor:pointer; 
+}
+
+.searchTable_inputs_Codes
+{
+	font-size:9px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	height:18px;
+	width:60px;
+	padding-right:15px;
+}
+
+.searchTable_inputs_dims
+{
+	font-size:9px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	height:18px;
+	width:30px;
+	/*padding-right:15px;*/
+}
+
+
+
+.searchTable_seachTitlesTable_paddingBasicInfo	/* Einai ta mple pinakakia */
+{
+	border:1px solid #009; 
+	font-weight:bold;
+	margin:3px;
+	
+	/*color:#FFFFFF;
+	background-color:#f7b52b;*/
+}
+
+
+.searchTable_seachTitlesTable_paddingBasicInfo caption
+{
+	/*
+	border:1px solid #009; 
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#ffffff;
+	font-size:14px;
+	background-color:#009;
+	text-align:center;
+	*/
+	border:1px solid #009; 
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	background-color:#009;
+	text-align:center;
+	
+}
+
+.searchTable_seachTitlesTable_paddingBasicInfo th
+{
+	border:1px solid #009; 
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	background-color:#009;
+	text-align:center;
+}
+.searchTable_seachTitlesTable_paddingBasicInfo td
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+	font-weight:bold;
+	background-color:#ffffff;
+	font-size:10px;
+	padding:0px 0px 0px 2px;
+	
+}
+
+
+
+
+.addForm_seachTitlesTable_paddingBasicInfo
+{
+	border:1px solid #339966; 
+	font-weight:bold;
+	/*color:#FFFFFF;
+	background-color:#f7b52b;*/
+}
+.addForm_seachTitlesTable_paddingBasicInfo caption
+{
+	/*
+	border:1px solid #009; 
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#ffffff;
+	font-size:14px;
+	background-color:#009;
+	text-align:center;
+	*/
+	border:1px solid #339966; 
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	background-color:#339966;
+	text-align:center;
+}
+
+.addForm_seachTitlesTable_paddingBasicInfo th
+{
+	border:1px solid #339966; 
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	background-color:#339966;
+	text-align:center;
+}
+.addForm_seachTitlesTable_paddingBasicInfo td
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+	font-weight:bold;
+	background-color:#ffffff;
+	font-size:10px;
+	padding:0px 0px 0px 0px;
+}
+
+.div_withScroll
+{
+
+	width:1100px; 
+	background-color:#e0e0e0;
+	position:relative; 
+	height: 380px; 	
+	overflow: auto;
+	margin: 0 auto;
+	left:0px; 
+	 float: left;
+	margin-right: 15px;  /* spacing between columns */
+    margin-bottom: 15px; /* spacing between rows */
+	
+
+}
+
+
+
+@media print{
+	.div_withScroll { height:auto;}
+}
+
+
+
+.div_withScroll_horizonal
+{
+    background-color:#e0e0e0;
+	position:relative; 
+	height: 70px; 	
+	overflow:auto;
+	margin: 0 auto;
+	left:0px; 
+	 float: left;
+	margin-right: 15px;  /* spacing between columns */
+    margin-bottom: 15px; /* spacing between rows */
+	
+
+}
+
+.div_withScroll_freeWidthHeight
+{
+	position:relative; 
+	overflow: auto;
+	margin: 0 auto;
+	left:0px; 
+}
+
+
+.liveSearch_divStyle
+{
+	font-size:10px;
+	font-weight:normal;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	height: 280px; 	/* must be greater than tbody*/
+	overflow: auto;
+	position:absolute;
+	width:78px;
+	padding:5px;
+	background-color:#FFFFFF;
+	border:2px solid #f7b52b;
+	z-index:30000;
+}
+
+.liveSearch_divStyle_add
+{
+	font-weight:normal; 
+	font-size:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	height: 169px; 	/* must be greater than tbody*/
+	overflow: auto;
+	
+	position:absolute; width:17px; 
+	height:100px; 
+	padding:5px; 
+	background-color:#FFFFFF; 
+	border:2px solid #339966;
+	
+	z-index:30000; 
+}
+
+.liveSearch_divStyle_blue
+{
+	font-size:10px;
+	font-weight:normal;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	height:auto;  	/* must be greater than tbody  //: 280px;*/
+	overflow: auto;
+	
+	position:absolute; 
+	width:auto; 
+	
+	padding:5px; 
+	background-color:#FFFFFF; 
+	border:2px solid #009;
+	
+	z-index:30000; 
+}
+
+
+.div_withScroll_freeWidthHeight_add
+{
+	position:relative; 
+	overflow: auto;
+	margin: 0 auto;
+	left:0px; 
+	
+	font-weight:normal; 
+	font-size:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	background-color:#FFFFFF; 
+	border:2px solid #339966;
+}
+
+
+
+.searchFilterTables_SetUp
+{
+	width:413px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	background-color:#E0E0E0; /*#CBDCED*/
+	border:1px solid #00000;
+	/*border:2px solid #F7B52B;*/
+	
+
+}
+
+
+.searchFilterTables_SetUp td
+{
+	
+	/*max-width:80px; */
+	text-align:left;
+	padding-left:15px;
+	padding-right:2px;
+	font-size:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+.searchFilterTables_SetUp th
+{
+	background-color:#009;
+	color:#FFFFFF;
+	/*max-width:80px; */
+	text-align:left;
+	padding-left:15px;
+	padding-right:2px;
+	font-size:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+.searchFilterTables_SetUp caption
+{
+	background-color:#009;
+	color:#FFFFFF;
+	/*max-width:80px; */
+	text-align:center;
+	padding-left:15px;
+	padding-right:2px;
+	font-size:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+.tblSubmitDelete  /* Grammi me to style toy pinaka submit */
+{
+	vertical-align:bottom;
+	azimuth:center;
+	text-align:center;
+}
+
+.searchTable_inputs_freeWidth
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+}
+
+.divChangeTextClass
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	font-weight:normal;
+}
+
+.shapess_techniques_photos
+{
+	overflow:inherit;
+	width:200px;
+	height:70px;
+}
+
+
+.shapess_techniques_photos_v2
+{
+	overflow:inherit;
+	width:650px;
+	height:70px;
+}
+
+
+.shapess_techniques_photos_patterns
+{
+	overflow:inherit;
+	width:400px;
+	height:70px;
+}
+
+.shapess_price_cat_photos_patterns
+{
+	overflow:inherit;
+	width:600px;
+	height:70px;
+}
+
+.edit_group_shape_technique_kritiria_group
+{
+	font-size:10px;
+	color:#FF6600;
+	background-color:#CAFB99;
+	font-weight:bold;
+	width:60px;
+
+}
+
+.loadingDiv
+{
+	position:absolute;
+	z-index:700000;
+	text-align:center;
+	color:#009;
+	font-weight:bold;
+	left: 9px;
+}
+
+.selectValueBachground
+{
+	background-color:#800040;
+	color:#FFFFFF;
+
+}
+
+.basicINfoFilterUsePlaceValue
+{
+	border-right:1px solid #f7b52b; border-bottom:1px solid #f7b52b;  
+}
+
+.basicINfoFilterUsePlaceText
+{
+	border-left:1px solid #f7b52b; border-bottom:1px solid #f7b52b;
+}
+
+.basicINfoFilterUsePlace
+{
+	border:1px solid #f7b52b; 
+}
+
+.pricingDivScroll
+{
+	overflow:auto; width:auto; height:300px; 
+}
+
+.epikefalidesLeftFrame
+{
+	color:#FFFFFF;
+	font-size:14;
+}	
+
+.photo_name_text
+{
+	font-weight:normal;
+	font-size:8px;
+}	
+
+.searchFilterTables_Caption_popUp
+{
+	padding:0px 0px 0px 1px;
+	background-color:#FFFFFF;
+	height:15px;
+	width:100%;
+	background-image: url("../cp_v3/images/blue_caption_background_vert.gif");
+	color:#FFFFFF;
+}	
+
+.searchFilterTables_pop_up
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	background-color:#E0E0E0; /*#CBDCED*/
+	border:2px solid #009;
+}
+
+
+
+.searchTable_prassino	/* ������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������ ������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������ */
+{
+	border:1px solid #339966; 
+	font-weight:bold;
+	vertical-align:top;
+	margin:3px;
+	/*color:#FFFFFF;
+	background-color:#f7b52b;*/
+}
+
+
+.searchTable_prassino th
+{
+	border:1px solid #339966; 
+	font-size:10px;
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	background-color:#339966;
+	text-align:center;
+}
+
+.searchTable_prassino caption
+{
+/*
+	border:1px solid #f7b52b; 
+	font-weight:bold;
+	color:#ffffff;
+	font-size:14px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	
+	background-color:#f7b52b;
+	text-align:center;
+*/
+	border:1px solid #339966; 
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	background-color:#339966;
+	text-align:center;	
+}
+
+.searchTable_prassino td
+{
+	/*border:1px solid #0000;*/
+	font-size:9px;
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+	background-color:#ffffff;
+	/*text-align:center;	*/
+}
+
+
+.searchFilterTables_Caption_popUp_red
+{
+	padding:0px 0px 0px 1px;
+	background-color:#FFFFFF;
+	height:15px;
+	width:100%;
+	background-image: url("../cp_v3/images/red_caption_background_vert.gif");
+	color:#FFFFFF;
+}	
+
+.searchFilterTables_pop_up_red
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	background-color:#E0E0E0; /*#CBDCED*/
+	border:2px solid #990000;
+	
+}
+
+
+.searchFilterTables_Caption_popUp_green
+{
+	padding:0px 0px 0px 1px;
+	background-color:#FFFFFF;
+	height:15px;
+	width:100%;
+	background-image: url("../cp_v3/images/green_caption_background_vert.gif");
+	color:#FFFFFF;
+}	
+
+.searchFilterTables_pop_up_green
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	background-color:#E0E0E0; /*#CBDCED*/
+	border:2px solid #339966;
+}
+
+.priceKokkino
+{
+	background-color:#990000;
+}
+
+
+.searchTable_kokkino	/* Einai ta bordo - kokkino pinakakia */
+{
+	border:1px solid #990000; 
+	font-weight:bold;
+	margin:3px;
+	
+	/*color:#FFFFFF;
+	background-color:#f7b52b;*/
+}
+
+
+.searchTable_kokkino caption
+{
+	/*
+	border:1px solid #009; 
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#ffffff;
+	font-size:14px;
+	background-color:#009;
+	text-align:center;
+	*/
+	border:1px solid #990000; 
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	background-color:#990000;
+	text-align:center;
+	
+}
+
+.searchTable_kokkino th
+{
+	border:1px solid #990000; 
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	background-color:#990000;
+	text-align:center;
+}
+.searchTable_kokkino td
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+	font-weight:bold;
+	background-color:#ffffff;
+	font-size:10px;
+	padding:0px 0px 0px 2px;
+	
+}
+
+
+
+
+
+.searchFilterTables_paramForms
+{
+	width:413px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	background-color:#E0E0E0; /*#CBDCED*/
+	border:1px solid #00000;
+	/*border:2px solid #F7B52B;*/
+	
+
+}
+
+
+.searchFilterTables_paramForms td
+{
+	
+	/*max-width:80px; */
+	text-align:left;
+	padding-left:15px;
+	padding-right:2px;
+	font-size:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+.searchFilterTables_paramForms th
+{
+	background-color:#009;
+	color:#FFFFFF;
+	/*max-width:80px; */
+	text-align:left;
+	padding-left:15px;
+	padding-right:2px;
+	font-size:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+.searchFilterTables_paramForms caption
+{
+	background-color:#009;
+	color:#FFFFFF;
+	/*max-width:80px; */
+	text-align:center;
+	padding-left:15px;
+	padding-right:2px;
+	font-size:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+.addeditTables_paramForms
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	background-color:#E0E0E0; /*#CBDCED*/
+	width:96%;
+	border:2px solid #71828a;
+	
+
+}
+
+.addeditTables_paramForms td
+{
+	/*width:120px;*/
+	/*max-width:80px; */
+	text-align:left;
+	padding-left:15px;
+	padding-right:2px;
+	font-size:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+.addeditTables_paramForms_Caption
+{
+	padding:0px 0px 0px 1px;
+	background-color:#FFFFFF;
+	height:15px;
+	width:100%;
+	background-image: url("../cp_v3/images/addedit_caption_background_paramForms.gif");
+	
+}
+
+
+.searchFilterTables_paramForms
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	background-color:#E0E0E0; /*#CBDCED*/
+	width:96%;
+	border:2px solid #F7B52B;
+	padding-left:0px;
+	padding-right:0px;
+	
+
+}
+
+
+
+.searchFilterTables_paramForms td
+{
+	/*width:120px;*/
+	/*max-width:80px; */
+	text-align:left;
+	padding-left:15px;
+	padding-right:2px;
+	font-size:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+.mouseOverTable
+{
+	font-size:8px;
+	/*border:0px solid #000000;*/
+	/*border:1px solid #990000;*/
+	
+}
+
+.mouseOverTable th
+{
+	background-color:#990000; color:#FFFFFF; 
+	font-size:8px;
+	border:0px solid #000000;
+	text-align:left;
+	padding-left:1px;
+	
+}
+
+
+.mouseOverTable td
+{
+	font-weight:normal;
+	font-size:8px;
+	/*border:0px solid #000000;*/
+	
+}
+
+
+
+
+.searchTable_packagingList
+{
+	border-top:1px solid #f7b52b; 
+	border-bottom:1px solid #f7b52b; 	
+	
+	font-weight:bold;
+	vertical-align:top;
+	margin:3px;
+	/*color:#FFFFFF;
+	background-color:#f7b52b;*/
+}
+
+
+
+.searchTable_packagingList th
+{
+	border-top:1px solid #f7b52b; 
+	border-bottom:1px solid #f7b52b; 	
+
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	background-color:#f7b52b;
+	text-align:center;
+}
+
+.searchTable_packagingList td
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+	background-color:#ffffff;
+	font-size:10px;
+	padding:0px 0px 0px 5px;
+}
+
+
+.searchFilterTables_Caption_popUp_grey	/* Grey Tables */
+{
+	padding:0px 0px 0px 1px;
+	background-color:#FFFFFF;
+	height:15px;
+	width:100%;
+	background-image: url("../cp_v3/images/glbnav_background.gif");
+	color:#FFFFFF;
+}	
+
+.searchFilterTables_Caption_popUp_grey2	/* Grey Tables */
+{
+	padding:0px 0px 0px 1px;
+	background-color:#FFFFFF;
+	height:15px;
+	width:100%;
+	background-image: url("../cp_v3/images/glblnav_selected.gif");
+	color:#FFFFFF;
+}	
+
+
+
+.paggingClass_border
+{
+	border:#ffffff solid 1px;
+	color:#FF9900;
+	height:4px;
+	vertical-align:middle;
+}
+
+.paggingClass_text
+{
+	color:#FF9900;
+	font-size:9px;
+	font-weight:bold;
+	vertical-align:middle;
+
+}
+
